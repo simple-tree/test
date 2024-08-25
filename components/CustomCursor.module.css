@@ -1,0 +1,23 @@
+.cursor {
+    position: absolute;
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    z-index: 9999; /* Ensure it's on top of other elements */
+    pointer-events: none; /* Prevent the cursor from blocking interactions */
+    transform: translate(-50%, -50%); /* Center the cursor on the pointer */
+  }
+  
+  .cursor.visible {
+    opacity: 1;
+  }
+  
+  .icon {
+    width: 100%; /* Ensure the icon fills the container */
+    height: auto;
+    display: block;
+  }
+  
+  .cursor {
+    opacity: 0; /* Hide cursor by default */
+  }
+  
