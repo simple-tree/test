@@ -61,7 +61,7 @@ const CustomCursor = () => {
 
   return (
     <div className={`${styles.cursor} ${cursorVisible ? styles.visible : ''}`}>
-      <img src="/pencil.png" alt="Custom cursor icon" className={styles.icon} />
+      <img src="/click.png" alt="Custom cursor icon" className={styles.icon} />
     </div>
   );
 };

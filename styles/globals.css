@@ -82,6 +82,13 @@ body {
   cursor: none; /* Hide the default cursor */
 }
 
+:root {
+  --Secondary-777777: #777;
+  --HoverGreen: #4aa336; /* Define the hover color */
+  --Secondary-555555: #555;
+  --Secondary-000000: #000;
+}
+
 .custom-cursor {
   position: fixed;
   width: 10px;
@@ -149,4 +156,19 @@ body {
   flex-grow: 1; /* Allow the description to take up available space */
   white-space: nowrap; /* Prevents text from breaking into multiple lines */
   
+}
+
+.cursor-icon-background-website {
+  width: 0.625vw;
+  height: 0.625vw;
+  background-image: url("/assets/Cursor.svg"); /* Path to your SVG */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 0.313vw;
+  transition: background-color 0.3s ease;
+}
+
+.cursor-icon-background-website:hover {
+  background-image: url("/assets/Cursor-hover.svg"); /* Path to a different SVG for hover effect or change color dynamically */
 }

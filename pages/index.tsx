@@ -25,16 +25,17 @@ export default function Home() {
 
       {/* Responsive text container centered between the two images */}
       <div className="absolute inset-0 flex items-end justify-center">
-        <div className="relative p-4" style={{ 
+        <div className="relative" style={{ 
           width: '17vw', 
-          maxWidth: '408px', 
-          height: '31vw', 
-          maxHeight: '662px',
-          marginBottom: '2.30vw', // Adjusts the bottom gap between the text and small image
+          maxWidth: '13vw', 
+          height: '30vw', 
+          minHeight: '225px',
+          marginBottom: '2.29vw', // Adjusts the bottom gap between the text and small image
           marginRight: '14.354vw' // Dynamically calculated equal margins
         }}>
           <p className="text-landing-thin text-[0.78vw] leading-[1vw]">
   SIMPLETREE is a One-Stop-Shop that is emerging as a pioneer in the real estate industry of Bangladesh. We dedicate ourselves to serve our clients with innovative and intelligent design solutions, execution, and facilities management. We strive every day to set new benchmarks for this industry in our country without deviating from our core values circling around Trust, Reliability, Sustainability, and Innovation. With over 6 LEED Certified projects, it is also in our practice to be conscious of our environment through the use of progressive technology.
+  <span className="cursor-icon-background-website" />
 </p>
 
  <div className="mt-[3.75vw]">
@@ -59,6 +60,8 @@ export default function Home() {
     </div>
   );
 }
+
+
 
 
 
