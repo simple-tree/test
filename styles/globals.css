@@ -147,4 +147,6 @@ body {
   letter-spacing: -0.106vw;
   text-transform: uppercase;
   flex-grow: 1; /* Allow the description to take up available space */
+  white-space: nowrap; /* Prevents text from breaking into multiple lines */
+  
 }
