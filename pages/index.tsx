@@ -27,7 +27,7 @@ export default function Home() {
       <div className="absolute inset-0 flex items-end justify-center">
         <div className="relative" style={{ 
           width: '17vw', 
-          maxWidth: '13vw', 
+          maxWidth: '13.5vw', 
           height: '30vw', 
           minHeight: '225px',
           marginBottom: '2.29vw', // Adjusts the bottom gap between the text and small image
