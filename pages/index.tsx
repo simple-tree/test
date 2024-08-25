@@ -31,7 +31,7 @@ export default function Home() {
           height: '30vw', 
           minHeight: '225px',
           marginBottom: '2.29vw', // Adjusts the bottom gap between the text and small image
-          marginRight: '14.354vw' // Dynamically calculated equal margins
+          marginRight: '13.354vw' // Dynamically calculated equal margins
         }}>
           <p className="text-landing-thin text-[0.78vw] leading-[1vw]">
   SIMPLETREE is a One-Stop-Shop that is emerging as a pioneer in the real estate industry of Bangladesh. We dedicate ourselves to serve our clients with innovative and intelligent design solutions, execution, and facilities management. We strive every day to set new benchmarks for this industry in our country without deviating from our core values circling around Trust, Reliability, Sustainability, and Innovation. With over 6 LEED Certified projects, it is also in our practice to be conscious of our environment through the use of progressive technology.
@@ -47,7 +47,7 @@ export default function Home() {
       </div>
 
       {/* Big image positioned on the right side with min-width */}
-      <div className="absolute right-0 top-0 w-[35vw] h-full min-w-[350px]">
+      <div className="absolute right-0 top-0 w-[35vw] h-full min-w-[20.229vw]">
         <Image
           src="/big-image.png"  // Replace with the correct path to the big image
           alt="Responsive Big Image"
@@ -60,6 +60,7 @@ export default function Home() {
     </div>
   );
 }
+
 
 
 
