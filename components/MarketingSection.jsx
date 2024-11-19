@@ -44,18 +44,18 @@ const MarketingSection = () => {
   const statements = ["WE DESIGN.", "WE CONSTRUCT.", "WE EXECUTE."];
 
   return (
-    <section className="flex flex-col items-center uppercase max-w-[16.125rem] mx-auto"> {/* 258px = 16.125rem */}
-      <div className="flex flex-col px-[0.125rem] w-full max-w-[16.125rem]"> {/* 2px = 0.125rem */}
+    <section className="flex flex-col items-center uppercase max-w-[13.438vw] mx-auto"> {/* 258px = 16.125rem */}
+      <div className="flex flex-col px-[0.104vw] w-full max-w-[13.438vw]"> {/* 2px = 0.125rem */}
         <TextContent text={mainText} />
         <img 
           loading="lazy" 
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/0c556c60fa480feeffc88fd275f8197b7788725df87ae4b20245fb121f55859e?placeholderIfAbsent=true&apiKey=479d9a7dd9a245609744dbc312d000df" 
           alt=""
-          className="object-contain self-center -mt-[0.09375rem] w-[0.1875rem] aspect-[0.92]" 
+          className="object-contain self-center -mt-[1.5vw] w-[0.5vw] h-[2vw] aspect-[0.92]" 
         />
       </div>
-      <div className="flex gap-[0.15625rem] justify-center items-center mt-[1.25rem] w-full max-w-[16.125rem]"> {/* 2.5px = 0.15625rem, 20px = 1.25rem */}
-        <div className="flex flex-col gap-[0.15625rem] w-full"> {/* 2.5px = 0.15625rem */}
+      <div className="flex gap-[0.130vw] justify-center items-center mt-[1.852vh] w-full max-w-[13.4375vw]"> {/* 2.5px = 0.130vw, 20px = 1.852vh */}
+        <div className="flex flex-col gap-[0.130vw] w-full"> {/* 2.5px = 0.130vw */}
           {statements.map((statement, index) => (
             <Statement key={index} text={statement} />
           ))}
