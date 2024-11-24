@@ -7,6 +7,7 @@
     font-family: 'SF Pro';
     font-style: normal;
     font-weight: 274;
+    line-height: normal;
     font-display: swap;
     src: url(/fonts/sf-pro-text-light.woff) format('woff');
     -webkit-font-smoothing: subpixel-antialiased !important; 
