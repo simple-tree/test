@@ -9,5 +9,7 @@
     font-weight: 274;
     font-display: swap;
     src: url(/fonts/sf-pro-text-light.woff) format('woff');
+    -webkit-font-smoothing: subpixel-antialiased !important; 
+    text-rendering:optimizeLegibility !important;
   }
 }
