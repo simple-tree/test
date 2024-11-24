@@ -27,7 +27,7 @@ import * as React from "react";
 
 const TextContent = ({ text }) => (
   <div className="w-[13.4375vw]"> {/* 258px = 13.4375vw */}
-    <p className="font-s-pro z-10 uppercase text-[0.78vw] tracking-[-0.04688vw]  text-black font-[274]"  style={{
+    <p className="font-s-pro z-10 uppercase text-[0.78vw] tracking-[-0.058vw]  text-black font-[274]"  style={{
         lineHeight: "1.8vh", // Adjust to match your design
         WebkitFontSmoothing: "subpixel-antialiased", // Match Safari behavior
         MozOsxFontSmoothing: "grayscale", // Match Firefox behavior
